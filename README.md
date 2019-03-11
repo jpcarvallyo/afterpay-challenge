@@ -1,4 +1,19 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Welcome
+This is my submission to the afterpay coding challenge. Below were my requirements.
+
+"Your manager tells you we need to prototype a new checkout flow for an internal project. Create a single-page application that will capture user information and send it back to an API endpoint.
+Step one: Prompt our user to input their address information. The user should then be able to 'Continue' to save the provided information and move to the next prompt."
+
+Step two: Prompt the user to provide a payment method. The user should be able to 'Complete' their order at this point and send the collected data to a mock API endpoint.
+
+Assumptions and Requirements
+  Use any mock items to simulate the items and consumer details
+  Use any design as fit
+  Use any api-endpoint (for example: https://docs.afterpay.com/us-online-api-v1.html#create-order) to mimic the order submission, this challenge focus on Front-End so as long as the order is sent out
+
+* Note: I ran into a CORS issue when sending the data to the API endpoint via POST request. I followed this documentation (https://docs.afterpay.com/us-online-api-v1.html#afterpay-online-us-api-v1) and modeled the data to be in line with the documentation. 
+
+As this challenged focused on the front end and sending off the data. I figured this would be something that the backend would attempt to resolve.
 
 ## Available Scripts
 
